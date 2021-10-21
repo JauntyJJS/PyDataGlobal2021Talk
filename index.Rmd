@@ -21,10 +21,51 @@ editor_options:
 options(htmltools.dir.version = FALSE)
 knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "90%")
 library(fontawesome)
+library(metathis)
+library(webshot2)
+library(xaringanthemer)
+library(xaringanExtra)
+```
+
+```{r screenshot function, include=FALSE}
+
+#' Screenshot Your Title Slide for Share Image
+#'
+#' Takes a screenshot of your title slide for sharing on Twitter
+#' (and other social media sites).
+#'
+#' @param slides_rmd Your slides file
+#' @param path Path to new share image
+screenshot_share_image <- function(
+  slides_rmd,
+  path_image = "share-card.png"
+) {
+  if (!requireNamespace("webshot2", quietly = TRUE)) {
+    stop(
+      "`webshot2` is required: ", 
+      'remotes::install_github("rstudio/webshot2")'
+    )
+  }
+  
+  webshot2::rmdshot(
+    doc = slides_rmd,
+    file = path_image,
+    vheight = 600,
+    vwidth = 600 * 191 / 100,
+    rmd_args = list(
+      output_options = list(
+        nature = list(ratio = "191:100"),
+        self_contained = TRUE
+      )
+    )
+  )
+  
+  path_image
+}
+
 ```
 
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
-library(xaringanthemer)
 style_mono_accent(
   base_color = "#b04b5d",
   header_font_google = google_font("Josefin Sans", "300"),
@@ -36,6 +77,38 @@ style_mono_accent(
   footnote_font_size = "0.5em",
   footnote_position_bottom = "10px",
 )
+```
+
+```{r metathis, echo=FALSE}
+meta() %>%
+  meta_name("github-repo" = "JauntyJJS/PyDataGlobal2021Talk") %>% 
+  meta_social(
+    title = "Tips and advice when creating a python software for lab members to use in academia",
+    description = paste(
+      "Scale high-quality research data provisioning with R packages.",
+      "Presented at PyData Global 2021."
+    ),
+    url = "https://jauntyjjs.github.io/PyDataGlobal2021Talk",
+    image = "https://github.com/JauntyJJS/PyDataGlobal2021Talk/blob/main/images/screenshot-title.png",
+    image_alt = paste(
+      "Title slide of",
+      "Tips and advice when creating a python software for lab members to use in academia", 
+      "presented at PyData Global 2021"
+    ),
+    og_type = "website",
+    og_author = "Jeremy Selva",
+    twitter_card_type = "summary_large_image",
+    twitter_creator = "@JauntyJJS"
+  )
+```
+
+```{r xaringanExtra-share-again, echo=FALSE}
+#xaringanExtra::embed_xaringan(
+#  url = "https://jauntyjjs.github.io/PyDataGlobal2021Talk",
+#  ratio = "16:9"
+#)
+
+xaringanExtra::use_share_again()
 ```
 
 class: middle, center, inverse
