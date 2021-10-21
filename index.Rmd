@@ -30,7 +30,7 @@ library(xaringanthemer)
 style_mono_accent(
   base_color = "#b04b5d",
   header_font_google = google_font("Josefin Sans", "300"),
-  text_font_google   = google_font("Montserrat", "600", "600i"),
+  text_font_google   = google_font("Lato", "600", "600i"),
   code_font_google   = google_font("Fira Mono"),
   link_color = "blue",
   footnote_color = NULL,
@@ -46,7 +46,7 @@ knitr::include_graphics("images/business-team.jpg")
 ```
 
 
-### My web link
+### Something Else
 ]
 
 
@@ -69,6 +69,7 @@ It started with creating a python script used to organise Mass Spectrometry data
 knitr::include_graphics("images/single-python-script.jpg")
 ```
 
+.center[.headnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
 ---
 
 ## Introduction
@@ -395,7 +396,7 @@ knitr::include_graphics("images/report-Matt-Clarke.jpg")
 
 Show pre-processing results to explain how the software calculate the final results. They are also helpful when there is a need to troubleshoot for logical errors
 
-```{r, out.width = "100%"}
+```{r, out.width = "90%"}
 knitr::include_graphics("images/normArea.jpg")
 ```
 ---
