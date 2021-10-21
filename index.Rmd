@@ -15,14 +15,12 @@ output:
     seal: false
 editor_options:
   chunk_output_type: consolex
+
 ---
-class: middle, center, inverse
-
-# Tips and advice when creating a python software for lab members to use in academia
-
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
 knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "90%")
+library(fontawesome)
 ```
 
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
@@ -30,23 +28,26 @@ library(xaringanthemer)
 style_mono_accent(
   base_color = "#b04b5d",
   header_font_google = google_font("Josefin Sans", "300"),
-  text_font_google   = google_font("Lato", "600", "600i"),
+  text_font_google   = google_font("Montserrat", "600", "600i"),
   code_font_google   = google_font("Fira Mono"),
-  link_color = "blue",
+  inverse_link_color = "#bbedf3",
+  link_color = "#0072bb",
   footnote_color = NULL,
   footnote_font_size = "0.5em",
   footnote_position_bottom = "10px",
 )
 ```
 
+class: middle, center, inverse
+
+# Tips and advice when creating a python software for lab members to use in academia
 
 .pull-left[
 ```{r, out.width = "70%"}
 knitr::include_graphics("images/business-team.jpg")
 ```
 
-
-### Something Else
+### PyData Global 2021
 ]
 
 
@@ -55,10 +56,13 @@ knitr::include_graphics("images/business-team.jpg")
 knitr::include_graphics("images/books.jpg")
 ```
 
-### @SelvaJeremy
+### Jeremy Selva [`r fa(name = "github")`](https://github.com/JauntyJJS) [`r fa(name = "linkedin")`](https://www.linkedin.com/in/jeremy-selva-085b9112a/)
+
 ]
 
 .left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
+
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
 
 ---
 ## Introduction
@@ -69,7 +73,7 @@ It started with creating a python script used to organise Mass Spectrometry data
 knitr::include_graphics("images/single-python-script.jpg")
 ```
 
-.center[.headnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
 ---
 
 ## Introduction
@@ -94,6 +98,8 @@ knitr::include_graphics("images/overwhelmed.jpg")
 ]
 
 .left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
+
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
 
 ---
 
@@ -121,6 +127,8 @@ https://github.com/SLINGhub/MSOrganiser
 
 .left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
 
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
+
 ---
 
 ## Introduction
@@ -133,6 +141,8 @@ knitr::include_graphics("images/not-easy.jpg")
 ```
 
 .left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
+
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
 ---
 
 ## Introduction
@@ -158,6 +168,8 @@ knitr::include_graphics("images/programming-hard.jpg")
 
 .left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
 
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
+
 ---
 
 ## Introduction
@@ -171,6 +183,8 @@ knitr::include_graphics("images/sharing.jpg")
 
 .left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
 
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
+
 ---
 ## Convert scripts to a web service or executable software
 
@@ -179,6 +193,8 @@ Users make less error when clicking buttons compared to typing in command lines
 ```{r, out.width = "90%"}
 knitr::include_graphics("images/click-vs-command.jpg")
 ```
+
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
 
 ---
 
@@ -193,6 +209,8 @@ knitr::include_graphics("images/click-vs-command.jpg")
 knitr::include_graphics("images/procedure.jpg")
 ```
 
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
+
 ---
 ## Advice 1 Tips 
 
@@ -204,6 +222,7 @@ Jack McKew's [blog](https://jackmckew.dev/making-executable-guis-with-python-goo
 knitr::include_graphics("images/Jack_McKew_Blog.jpg")
 ```
 
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
 
 ---
 
@@ -219,6 +238,8 @@ Baby Dragon by [drawinghowtos.com](https://drawinghowtos.com/baby-dragon-2-7909)
 Cartoon Hydra by [how-to-draw-cartoons-online.com](https://how-to-draw-cartoons-online.com/cartoon-hydra.html)
 ]
 ]
+
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
 
 ---
 
@@ -245,6 +266,8 @@ Cartoon Hydra by [how-to-draw-cartoons-online.com](https://how-to-draw-cartoons-
 
 Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
 
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
+
 ---
 ## Give a software overview using cheatsheet
 
@@ -252,7 +275,7 @@ Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
 knitr::include_graphics("images/my_cheatsheet.PNG")
 ```
 
-
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
 ---
 ## Advice 2 Tips 
 
@@ -270,6 +293,8 @@ knitr::include_graphics("images/RStudio_cheatsheet_examples.jpg")
 knitr::include_graphics("images/RStudio_cheatsheet.jpg")
 ```
 ]
+
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
 ---
 
 ## Give helpful messages when users make a mistake.
@@ -290,6 +315,7 @@ knitr::include_graphics("images/hammer-computer.jpg")
 
 .left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
 
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
 ---
 
 ## Provide helpful messages when users make a mistake.
@@ -315,6 +341,7 @@ knitr::include_graphics("images/thumbs-up.jpg")
 
 .left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
 
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
 ---
 
 ## Advice 3 Tips 
@@ -334,6 +361,7 @@ knitr::include_graphics("images/michael-lynch-blog.jpg")
 ```
 ]
 
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
 ---
 
 ## Output report file and pre-processing results to show accountability.
@@ -353,6 +381,8 @@ knitr::include_graphics("images/nature-reusable-2.jpg")
 ]
 
 https://www.nature.com/articles/s43588-021-00109-9
+
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
 ---
 
 ## Advice 4 Tips 
@@ -363,6 +393,7 @@ Tag a label on different software version and encourage users to cite not just t
 knitr::include_graphics("images/github-tag-release.jpg")
 ```
 
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
 ---
 
 ## Advice 4 Tips 
@@ -390,6 +421,7 @@ knitr::include_graphics("images/report-Matt-Clarke.jpg")
 ```
 ]
 
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
 ---
 
 ## Advice 4 Tips 
@@ -399,6 +431,8 @@ Show pre-processing results to explain how the software calculate the final resu
 ```{r, out.width = "90%"}
 knitr::include_graphics("images/normArea.jpg")
 ```
+
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
 ---
 
 ## My documentation issue
@@ -409,7 +443,7 @@ I started my documentation by trying to follow some advice provided by Lee's [ar
 knitr::include_graphics("images/documentation-beginning.jpg")
 ```
 
-
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
 ---
 
 ## My documentation issue
@@ -433,6 +467,7 @@ knitr::include_graphics("images/documentation-confused-2.jpg")
 
 .left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
 
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
 ---
 ## Organise your documentation into specific structures
 
@@ -442,6 +477,7 @@ Thankfully, I came across DIVIO [website](https://documentation.divio.com/) that
 knitr::include_graphics("images/documentation-table.jpg")
 ```
 
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
 ---
 ## Organise your documentation into specific structures
 
@@ -453,6 +489,7 @@ knitr::include_graphics("images/documentation-cleanup.jpg")
 
 .left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
 
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
 ---
 ## Advice 5 Tips 
 
@@ -475,6 +512,7 @@ knitr::include_graphics("images/documentation-cheatsheet.jpg")
 
 ]
 
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
 ---
 ## Advice 5 Tips 
 
@@ -497,7 +535,7 @@ knitr::include_graphics("images/documentation-developer-documentation.jpg")
 
 ]
 
-
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
 ---
 
 ## Create a software that gives a lasting impact.
@@ -518,6 +556,7 @@ knitr::include_graphics("images/help-people.jpg")
 
 .left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
 
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
 ---
 
 ## Create a software that gives a lasting impact.
@@ -543,6 +582,7 @@ knitr::include_graphics("images/Yihui_Xie_Blog.jpg")
 
 .left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
 
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
 ---
 
 ## All the best...
@@ -568,3 +608,5 @@ knitr::include_graphics("images/that-is-all.jpg")
 
 
 .left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
+
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
