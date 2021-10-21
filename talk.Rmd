@@ -1,0 +1,569 @@
+---
+title: "Tips and advice when creating a python software for lab members to use in academia"
+author: "Jeremy Selva"
+institute: "pydata global conference 2021"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      slideNumberFormat: "%current%"
+      ratio: "16:9"
+    seal: false
+editor_options:
+  chunk_output_type: consolex
+---
+class: middle, center, inverse
+
+# Tips and advice when creating a python software for lab members to use in academia
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "90%")
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_accent(
+  base_color = "#b04b5d",
+  header_font_google = google_font("Josefin Sans", "300"),
+  text_font_google   = google_font("Montserrat", "600", "600i"),
+  code_font_google   = google_font("Fira Mono"),
+  link_color = "blue",
+  footnote_color = NULL,
+  footnote_font_size = "0.5em",
+  footnote_position_bottom = "10px",
+)
+```
+
+
+.pull-left[
+```{r, out.width = "70%"}
+knitr::include_graphics("images/business-team.jpg")
+```
+
+
+### My web link
+]
+
+
+.pull-right[
+```{r, out.width = "70%"}
+knitr::include_graphics("images/books.jpg")
+```
+
+### @SelvaJeremy
+]
+
+.left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
+
+---
+## Introduction
+
+It started with creating a python script used to organise Mass Spectrometry data for my project.
+
+```{r, out.width = "80%"}
+knitr::include_graphics("images/single-python-script.jpg")
+```
+
+---
+
+## Introduction
+
+Many asks me to fix/run similar scripts created by past lab members.
+- *"This script does not work on my computer anymore. I don't know why."* 😵
+
+.pull-left[
+
+```{r, out.width = "80%"}
+knitr::include_graphics("images/many-scripts.jpg")
+```
+
+]
+
+.pull-right[
+
+```{r, out.width = "80%"}
+knitr::include_graphics("images/overwhelmed.jpg")
+```
+
+]
+
+.left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
+
+---
+
+## Introduction
+
+I combined all these scripts into one Windows executable software in Python called [MSOrganiser](https://github.com/SLINGhub/MSOrganiser).
+
+.pull-left[
+```{r, out.width = "100%"}
+knitr::include_graphics("images/many-scripts.jpg")
+```
+]
+
+.pull-right[
+
+```{r, out.width = "60%"}
+knitr::include_graphics("images/logo.png")
+```
+
+.center[
+https://github.com/SLINGhub/MSOrganiser
+]
+
+]
+
+.left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
+
+---
+
+## Introduction
+
+Looking back, I realised that things have not been easy...
+
+
+```{r, out.width = "50%"}
+knitr::include_graphics("images/not-easy.jpg")
+```
+
+.left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
+---
+
+## Introduction
+
+In academia, most of us are not trained in coding or software development. It is hard for us to write software for our own research paper, it is even more challenging to create software for others to use.
+
+.pull-left[
+
+Daniel Lemire’s [blog](https://lemire.me/blog/2012/06/18/on-the-quality-of-academic-software/)
+
+```{r, out.width = "80%"}
+knitr::include_graphics("images/Daniel_Lemire_Blog.jpg")
+```
+]
+
+.pull-right[
+
+```{r, out.width = "90%"}
+knitr::include_graphics("images/programming-hard.jpg")
+```
+
+]
+
+.left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
+
+---
+
+## Introduction
+
+In this talk, I decide to share some things that have helped me tremendously.
+
+
+```{r, out.width = "50%"}
+knitr::include_graphics("images/sharing.jpg")
+```
+
+.left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
+
+---
+## Convert scripts to a web service or executable software
+
+Users make less error when clicking buttons compared to typing in command lines
+
+```{r, out.width = "90%"}
+knitr::include_graphics("images/click-vs-command.jpg")
+```
+
+---
+
+## Advice 1 Tips 
+
+- Chriskiehl's [Gooey](https://github.com/chriskiehl/Gooey) to create a simple GUI interface quickly.
+
+- [Pyinstaller](https://www.pyinstaller.org/) to convert the scripts to a stand alone executable program.
+
+
+```{r, out.width = "80%"}
+knitr::include_graphics("images/procedure.jpg")
+```
+
+---
+## Advice 1 Tips 
+
+Jack McKew's [blog](https://jackmckew.dev/making-executable-guis-with-python-gooey-pyinstaller.html) helps me make use of the two tools to get what I need.
+
+<br>
+
+```{r, out.width = "95%"}
+knitr::include_graphics("images/Jack_McKew_Blog.jpg")
+```
+
+
+---
+
+## I forgot about new users
+
+```{r, out.width = "100%"}
+knitr::include_graphics("images/software_growth.jpg")
+```
+
+.left[.footnote[
+Baby Dragon by [drawinghowtos.com](https://drawinghowtos.com/baby-dragon-2-7909)
+
+Cartoon Hydra by [how-to-draw-cartoons-online.com](https://how-to-draw-cartoons-online.com/cartoon-hydra.html)
+]
+]
+
+---
+
+## I forgot about new users
+
+New users typical reaction to complex program
+- Scared 🥺 and Confused 😵
+- *"Maybe this tool is not for me"* 😂
+
+.pull-left[
+```{r, out.width = "65%"}
+knitr::include_graphics("images/cartoon_hydra.gif")
+```
+]
+
+.pull-right[
+```{r, out.width = "80%"}
+knitr::include_graphics("images/scared.jpg")
+```
+]
+
+.left[.footnote[
+Cartoon Hydra by [how-to-draw-cartoons-online.com](https://how-to-draw-cartoons-online.com/cartoon-hydra.html)
+
+Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
+
+---
+## Give a software overview using cheatsheet
+
+```{r, out.width = "60%"}
+knitr::include_graphics("images/my_cheatsheet.PNG")
+```
+
+
+---
+## Advice 2 Tips 
+
+RStudio cheatsheet [examples](https://www.rstudio.com/resources/cheatsheets/)
+and [template](https://github.com/rstudio/cheatsheets/blob/master/.github/CONTRIBUTING.md) and [advice](https://github.com/rstudio/cheatsheets/blob/master/README.md)
+
+.pull-left[
+```{r, out.width = "100%"}
+knitr::include_graphics("images/RStudio_cheatsheet_examples.jpg")
+```
+]
+
+.pull-right[
+```{r, out.width = "100%"}
+knitr::include_graphics("images/RStudio_cheatsheet.jpg")
+```
+]
+---
+
+## Give helpful messages when users make a mistake.
+
+Users and programmers make mistakes sometimes. Software error messages are unavoidable.
+
+.pull-left[
+```{r, out.width = "90%"}
+knitr::include_graphics("images/unknown_error.jpg")
+```
+]
+
+.pull-right[
+```{r, out.width = "100%"}
+knitr::include_graphics("images/hammer-computer.jpg")
+```
+]
+
+.left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
+
+---
+
+## Provide helpful messages when users make a mistake.
+
+However, if you can make them helpful, it does goes a long way.
+
+.pull-left[
+
+```{r, out.width = "70%"}
+knitr::include_graphics("images/helpful_error-2.jpg")
+```
+
+```{r, out.width = "70%"}
+knitr::include_graphics("images/helpful_error.jpg")
+```
+]
+
+.pull-right[
+```{r, out.width = "100%"}
+knitr::include_graphics("images/thumbs-up.jpg")
+```
+]
+
+.left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
+
+---
+
+## Advice 3 Tips 
+.pull-left[
+Saadia Minhas' [blog](https://uxplanet.org/how-to-write-good-error-messages-858e4551cd4) provides some good tips
+
+```{r, out.width = "90%"}
+knitr::include_graphics("images/saadia-minhas-blog.jpg")
+```
+]
+
+.pull-right[
+Micheal Lynch's [tip](https://mtlynch.io/code-review-love/) to show openness to criticism
+ 
+```{r, out.width = "100%"}
+knitr::include_graphics("images/michael-lynch-blog.jpg")
+```
+]
+
+---
+
+## Output report file and pre-processing results to show accountability.
+
+Academia journals are getting more demanding with regards to software, wanting reusability besides reproducibility.
+
+.pull-left[
+```{r, out.width = "90%"}
+knitr::include_graphics("images/nature-reusable-1.jpg")
+```
+]
+
+.pull-right[
+```{r, out.width = "100%"}
+knitr::include_graphics("images/nature-reusable-2.jpg")
+```
+]
+
+https://www.nature.com/articles/s43588-021-00109-9
+---
+
+## Advice 4 Tips 
+
+Tag a label on different software version and encourage users to cite not just the software name but the version number as well.
+
+```{r, out.width = "70%"}
+knitr::include_graphics("images/github-tag-release.jpg")
+```
+
+---
+
+## Advice 4 Tips 
+
+Create a report file/table (pdf or excel) that store the user's input parameters
+
+.pull-left[
+```{r, out.width = "90%"}
+knitr::include_graphics("images/report-MSOrganiser.jpg")
+```
+]
+
+.pull-right[
+
+Chris Moffitt's [example](https://pbpython.com/pdf-reports.html) using WeasyPrint
+
+```{r, out.width = "90%"}
+knitr::include_graphics("images/report-Chris-Moffitt.jpg")
+```
+
+Matt Clarke's [example](https://practicaldatascience.co.uk/data-science/how-to-create-pdf-reports-in-python-using-pandas-and-gilfoyle) using Gilfoyle
+
+```{r, out.width = "90%"}
+knitr::include_graphics("images/report-Matt-Clarke.jpg")
+```
+]
+
+---
+
+## Advice 4 Tips 
+
+Show pre-processing results to explain how the software calculate the final results. They are also helpful when there is a need to troubleshoot for logical errors
+
+```{r, out.width = "100%"}
+knitr::include_graphics("images/normArea.jpg")
+```
+---
+
+## My documentation issue
+
+I started my documentation by trying to follow some advice provided by Lee's [article](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006561)
+
+```{r, out.width = "60%"}
+knitr::include_graphics("images/documentation-beginning.jpg")
+```
+
+
+---
+
+## My documentation issue
+
+As my documentation starts to get longer and more complex, people find it hard to understand.
+
+.pull-left[
+
+```{r, out.width = "100%"}
+knitr::include_graphics("images/documentation-confused.jpg")
+```
+]
+
+.pull-right[
+
+```{r, out.width = "100%"}
+knitr::include_graphics("images/documentation-confused-2.jpg")
+```
+
+]
+
+.left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
+
+---
+## Organise your documentation into specific structures
+
+Thankfully, I came across DIVIO [website](https://documentation.divio.com/) that encourages me to split my documentations into manageable categories.
+
+```{r, out.width = "60%"}
+knitr::include_graphics("images/documentation-table.jpg")
+```
+
+---
+## Organise your documentation into specific structures
+
+Following in its footsteps, this is what I come up with
+
+```{r, out.width = "50%"}
+knitr::include_graphics("images/documentation-cleanup.jpg")
+```
+
+.left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
+
+---
+## Advice 5 Tips 
+
+.pull-left[
+
+Tutorial: Github README
+
+```{r, out.width = "100%"}
+knitr::include_graphics("images/documentation-readme.jpg")
+```
+]
+
+.pull-right[
+
+How To Guide: Cheatsheet
+
+```{r, out.width = "100%"}
+knitr::include_graphics("images/documentation-cheatsheet.jpg")
+```
+
+]
+
+---
+## Advice 5 Tips 
+
+.pull-left[
+
+Explaination: User Documentation
+
+```{r, out.width = "100%"}
+knitr::include_graphics("images/documentation-user-documentation.jpg")
+```
+]
+
+.pull-right[
+
+Reference: Developer Documentation
+
+```{r, out.width = "100%"}
+knitr::include_graphics("images/documentation-developer-documentation.jpg")
+```
+
+]
+
+
+---
+
+## Create a software that gives a lasting impact.
+
+.pull-left[
+```{r, out.width = "100%"}
+knitr::include_graphics("images/help-people.jpg")
+```
+]
+
+.pull-right[
+- The main purpose for creating a software is not to make us popular, it is to **help others with their problems**.
+
+- A problem no matter how small can be as annoying as big ones
+
+- The more annoying the problem the software tries to solve, the more useful it is.
+]
+
+.left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
+
+---
+
+## Create a software that gives a lasting impact.
+
+.pull-left[
+```{r, out.width = "100%"}
+knitr::include_graphics("images/help-people-2.jpg")
+```
+]
+
+.pull-right[
+- Don't feel discouraged when you are tasked to create a tool that does small and simple things. 
+
+- Instead "do (these) small things with great love." -- *Mother Teresa*
+
+- "If you can impact a few people deeply, they will just shout from the rooftops for you. The breadth of the impact will be a matter of time". -- *Yihui Xie* [blog](https://yihui.org/en/2018/08/influence-depth-or-breadth/)
+
+```{r, out.width = "100%", fig.align='center'}
+knitr::include_graphics("images/Yihui_Xie_Blog.jpg")
+```
+
+]
+
+.left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
+
+---
+
+## All the best...
+
+.pull-left[
+
+Review of advice
+- Convert scripts to a web service or executable software.
+- Give a software overview using cheat sheets.
+- Provide helpful messages when users make a mistake.
+- Output report file and pre-processing results to show accountability.
+- Organise your documentation into specific structures
+
+Take home advice
+- Create a software that gives a lasting impact.
+]
+
+.pull-right[
+```{r, out.width = "100%"}
+knitr::include_graphics("images/that-is-all.jpg")
+```
+]
+
+
+.left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]

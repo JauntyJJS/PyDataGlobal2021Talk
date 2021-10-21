@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Tips and advice when creating a python software for lab members to use in academia</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Jeremy Selva" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+class: middle, center, inverse
+
+# Tips and advice when creating a python software for lab members to use in academia
+
+
+
+
+
+
+.pull-left[
+&lt;img src="images/business-team.jpg" width="70%" style="display: block; margin: auto;" /&gt;
+
+
+### My web link
+]
+
+
+.pull-right[
+&lt;img src="images/books.jpg" width="70%" style="display: block; margin: auto;" /&gt;
+
+### @SelvaJeremy
+]
+
+.left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
+
+---
+## Introduction
+
+It started with creating a python script used to organise Mass Spectrometry data for my project.
+
+&lt;img src="images/single-python-script.jpg" width="80%" style="display: block; margin: auto;" /&gt;
+
+---
+
+## Introduction
+
+Many asks me to fix/run similar scripts created by past lab members.
+- *"This script does not work on my computer anymore. I don't know why."* 😵
+
+.pull-left[
+
+&lt;img src="images/many-scripts.jpg" width="80%" style="display: block; margin: auto;" /&gt;
+
+]
+
+.pull-right[
+
+&lt;img src="images/overwhelmed.jpg" width="80%" style="display: block; margin: auto;" /&gt;
+
+]
+
+.left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
+
+---
+
+## Introduction
+
+I combined all these scripts into one Windows executable software in Python called [MSOrganiser](https://github.com/SLINGhub/MSOrganiser).
+
+.pull-left[
+&lt;img src="images/many-scripts.jpg" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+.pull-right[
+
+&lt;img src="images/logo.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+.center[
+https://github.com/SLINGhub/MSOrganiser
+]
+
+]
+
+.left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
+
+---
+
+## Introduction
+
+Looking back, I realised that things have not been easy...
+
+
+&lt;img src="images/not-easy.jpg" width="50%" style="display: block; margin: auto;" /&gt;
+
+.left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
+---
+
+## Introduction
+
+In academia, most of us are not trained in coding or software development. It is hard for us to write software for our own research paper, it is even more challenging to create software for others to use.
+
+.pull-left[
+
+Daniel Lemire’s [blog](https://lemire.me/blog/2012/06/18/on-the-quality-of-academic-software/)
+
+&lt;img src="images/Daniel_Lemire_Blog.jpg" width="80%" style="display: block; margin: auto;" /&gt;
+]
+
+.pull-right[
+
+&lt;img src="images/programming-hard.jpg" width="90%" style="display: block; margin: auto;" /&gt;
+
+]
+
+.left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
+
+---
+
+## Introduction
+
+In this talk, I decide to share some things that have helped me tremendously.
+
+
+&lt;img src="images/sharing.jpg" width="50%" style="display: block; margin: auto;" /&gt;
+
+.left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
+
+---
+## Convert scripts to a web service or executable software
+
+Users make less error when clicking buttons compared to typing in command lines
+
+&lt;img src="images/click-vs-command.jpg" width="90%" style="display: block; margin: auto;" /&gt;
+
+---
+
+## Advice 1 Tips 
+
+- Chriskiehl's [Gooey](https://github.com/chriskiehl/Gooey) to create a simple GUI interface quickly.
+
+- [Pyinstaller](https://www.pyinstaller.org/) to convert the scripts to a stand alone executable program.
+
+
+&lt;img src="images/procedure.jpg" width="80%" style="display: block; margin: auto;" /&gt;
+
+---
+## Advice 1 Tips 
+
+Jack McKew's [blog](https://jackmckew.dev/making-executable-guis-with-python-gooey-pyinstaller.html) helps me make use of the two tools to get what I need.
+
+&lt;br&gt;
+
+&lt;img src="images/Jack_McKew_Blog.jpg" width="95%" style="display: block; margin: auto;" /&gt;
+
+
+---
+
+## I forgot about new users
+
+&lt;img src="images/software_growth.jpg" width="100%" style="display: block; margin: auto;" /&gt;
+
+.left[.footnote[
+Baby Dragon by [drawinghowtos.com](https://drawinghowtos.com/baby-dragon-2-7909)
+
+Cartoon Hydra by [how-to-draw-cartoons-online.com](https://how-to-draw-cartoons-online.com/cartoon-hydra.html)
+]
+]
+
+---
+
+## I forgot about new users
+
+New users typical reaction to complex program
+- Scared 🥺 and Confused 😵
+- *"Maybe this tool is not for me"* 😂
+
+.pull-left[
+&lt;img src="images/cartoon_hydra.gif" width="65%" style="display: block; margin: auto;" /&gt;
+]
+
+.pull-right[
+&lt;img src="images/scared.jpg" width="80%" style="display: block; margin: auto;" /&gt;
+]
+
+.left[.footnote[
+Cartoon Hydra by [how-to-draw-cartoons-online.com](https://how-to-draw-cartoons-online.com/cartoon-hydra.html)
+
+Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
+
+---
+## Give a software overview using cheatsheet
+
+&lt;img src="images/my_cheatsheet.PNG" width="60%" style="display: block; margin: auto;" /&gt;
+
+
+---
+## Advice 2 Tips 
+
+RStudio cheatsheet [examples](https://www.rstudio.com/resources/cheatsheets/)
+and [template](https://github.com/rstudio/cheatsheets/blob/master/.github/CONTRIBUTING.md) and [advice](https://github.com/rstudio/cheatsheets/blob/master/README.md)
+
+.pull-left[
+&lt;img src="images/RStudio_cheatsheet_examples.jpg" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+.pull-right[
+&lt;img src="images/RStudio_cheatsheet.jpg" width="100%" style="display: block; margin: auto;" /&gt;
+]
+---
+
+## Give helpful messages when users make a mistake.
+
+Users and programmers make mistakes sometimes. Software error messages are unavoidable.
+
+.pull-left[
+&lt;img src="images/unknown_error.jpg" width="90%" style="display: block; margin: auto;" /&gt;
+]
+
+.pull-right[
+&lt;img src="images/hammer-computer.jpg" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+.left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
+
+---
+
+## Provide helpful messages when users make a mistake.
+
+However, if you can make them helpful, it does goes a long way.
+
+.pull-left[
+
+&lt;img src="images/helpful_error-2.jpg" width="70%" style="display: block; margin: auto;" /&gt;
+
+&lt;img src="images/helpful_error.jpg" width="70%" style="display: block; margin: auto;" /&gt;
+]
+
+.pull-right[
+&lt;img src="images/thumbs-up.jpg" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+.left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
+
+---
+
+## Advice 3 Tips 
+.pull-left[
+Saadia Minhas' [blog](https://uxplanet.org/how-to-write-good-error-messages-858e4551cd4) provides some good tips
+
+&lt;img src="images/saadia-minhas-blog.jpg" width="90%" style="display: block; margin: auto;" /&gt;
+]
+
+.pull-right[
+Micheal Lynch's [tip](https://mtlynch.io/code-review-love/) to show openness to criticism
+ 
+&lt;img src="images/michael-lynch-blog.jpg" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+---
+
+## Output report file and pre-processing results to show accountability.
+
+Academia journals are getting more demanding with regards to software, wanting reusability besides reproducibility.
+
+.pull-left[
+&lt;img src="images/nature-reusable-1.jpg" width="90%" style="display: block; margin: auto;" /&gt;
+]
+
+.pull-right[
+&lt;img src="images/nature-reusable-2.jpg" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+https://www.nature.com/articles/s43588-021-00109-9
+---
+
+## Advice 4 Tips 
+
+Tag a label on different software version and encourage users to cite not just the software name but the version number as well.
+
+&lt;img src="images/github-tag-release.jpg" width="70%" style="display: block; margin: auto;" /&gt;
+
+---
+
+## Advice 4 Tips 
+
+Create a report file/table (pdf or excel) that store the user's input parameters
+
+.pull-left[
+&lt;img src="images/report-MSOrganiser.jpg" width="90%" style="display: block; margin: auto;" /&gt;
+]
+
+.pull-right[
+
+Chris Moffitt's [example](https://pbpython.com/pdf-reports.html) using WeasyPrint
+
+&lt;img src="images/report-Chris-Moffitt.jpg" width="90%" style="display: block; margin: auto;" /&gt;
+
+Matt Clarke's [example](https://practicaldatascience.co.uk/data-science/how-to-create-pdf-reports-in-python-using-pandas-and-gilfoyle) using Gilfoyle
+
+&lt;img src="images/report-Matt-Clarke.jpg" width="90%" style="display: block; margin: auto;" /&gt;
+]
+
+---
+
+## Advice 4 Tips 
+
+Show pre-processing results to explain how the software calculate the final results. They are also helpful when there is a need to troubleshoot for logical errors
+
+&lt;img src="images/normArea.jpg" width="100%" style="display: block; margin: auto;" /&gt;
+---
+
+## My documentation issue
+
+I started my documentation by trying to follow some advice provided by Lee's [article](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006561)
+
+&lt;img src="images/documentation-beginning.jpg" width="60%" style="display: block; margin: auto;" /&gt;
+
+
+---
+
+## My documentation issue
+
+As my documentation starts to get longer and more complex, people find it hard to understand.
+
+.pull-left[
+
+&lt;img src="images/documentation-confused.jpg" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+.pull-right[
+
+&lt;img src="images/documentation-confused-2.jpg" width="100%" style="display: block; margin: auto;" /&gt;
+
+]
+
+.left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
+
+---
+## Organise your documentation into specific structures
+
+Thankfully, I came across DIVIO [website](https://documentation.divio.com/) that encourages me to split my documentations into manageable categories.
+
+&lt;img src="images/documentation-table.jpg" width="60%" style="display: block; margin: auto;" /&gt;
+
+---
+## Organise your documentation into specific structures
+
+Following in its footsteps, this is what I come up with
+
+&lt;img src="images/documentation-cleanup.jpg" width="50%" style="display: block; margin: auto;" /&gt;
+
+.left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
+
+---
+## Advice 5 Tips 
+
+.pull-left[
+
+Tutorial: Github README
+
+&lt;img src="images/documentation-readme.jpg" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+.pull-right[
+
+How To Guide: Cheatsheet
+
+&lt;img src="images/documentation-cheatsheet.jpg" width="100%" style="display: block; margin: auto;" /&gt;
+
+]
+
+---
+## Advice 5 Tips 
+
+.pull-left[
+
+Explaination: User Documentation
+
+&lt;img src="images/documentation-user-documentation.jpg" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+.pull-right[
+
+Reference: Developer Documentation
+
+&lt;img src="images/documentation-developer-documentation.jpg" width="100%" style="display: block; margin: auto;" /&gt;
+
+]
+
+
+---
+
+## Create a software that gives a lasting impact.
+
+.pull-left[
+&lt;img src="images/help-people.jpg" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+.pull-right[
+- The main purpose for creating a software is not to make us popular, it is to **help others with their problems**.
+
+- A problem no matter how small can be as annoying as big ones
+
+- The more annoying the problem the software tries to solve, the more useful it is.
+]
+
+.left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
+
+---
+
+## Create a software that gives a lasting impact.
+
+.pull-left[
+&lt;img src="images/help-people-2.jpg" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+.pull-right[
+- Don't feel discouraged when you are tasked to create a tool that does small and simple things. 
+
+- Instead "do (these) small things with great love." -- *Mother Teresa*
+
+- "If you can impact a few people deeply, they will just shout from the rooftops for you. The breadth of the impact will be a matter of time". -- *Yihui Xie* [blog](https://yihui.org/en/2018/08/influence-depth-or-breadth/)
+
+&lt;img src="images/Yihui_Xie_Blog.jpg" width="100%" style="display: block; margin: auto;" /&gt;
+
+]
+
+.left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
+
+---
+
+## All the best...
+
+.pull-left[
+
+Review of advice
+- Convert scripts to a web service or executable software.
+- Give a software overview using cheat sheets.
+- Provide helpful messages when users make a mistake.
+- Output report file and pre-processing results to show accountability.
+- Organise your documentation into specific structures
+
+Take home advice
+- Create a software that gives a lasting impact.
+]
+
+.pull-right[
+&lt;img src="images/that-is-all.jpg" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+
+.left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"slideNumberFormat": "%current%",
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
