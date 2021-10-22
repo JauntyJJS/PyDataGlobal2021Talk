@@ -89,10 +89,10 @@ meta() %>%
       "Presented at PyData Global 2021."
     ),
     url = "https://jauntyjjs.github.io/PyDataGlobal2021Talk",
-    image = "https://github.com/JauntyJJS/PyDataGlobal2021Talk/blob/main/images/screenshot-title.png",
+    image = "https://raw.githubusercontent.com/JauntyJJS/PyDataGlobal2021Talk/main/share-card.png",
     image_alt = paste(
       "Title slide of",
-      "Tips and advice when creating a python software for lab members to use in academia", 
+      "Tips and advice when creating a python software for lab members to use in academia",
       "presented at PyData Global 2021"
     ),
     og_type = "website",
