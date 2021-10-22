@@ -85,8 +85,7 @@ meta() %>%
   meta_social(
     title = "Tips and advice when creating a python software for lab members to use in academia",
     description = paste(
-      "Scale high-quality research data provisioning with R packages.",
-      "Presented at PyData Global 2021."
+      "Presented at PyData Global 2021. Images by Amonrat Rungreangfangsai."
     ),
     url = "https://jauntyjjs.github.io/PyDataGlobal2021Talk",
     image = "https://raw.githubusercontent.com/JauntyJJS/PyDataGlobal2021Talk/main/share-card.png",
