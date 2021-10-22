@@ -20,6 +20,7 @@ editor_options:
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
 knitr::opts_chunk$set(echo = FALSE, fig.align = "center", out.width = "90%")
+library(glue)
 library(fontawesome)
 library(metathis)
 library(webshot2)
@@ -84,16 +85,17 @@ meta() %>%
   meta_name("github-repo" = "JauntyJJS/PyDataGlobal2021Talk") %>% 
   meta_social(
     title = "Tips and advice when creating a python software for lab members to use in academia",
-    description = paste(
-      "Presented at PyData Global 2021. Images by Amonrat Rungreangfangsai."
-    ),
+    description = glue::glue("
+    Presented at PyData Global 2021. 
+    Images by Amonrat Rungreangfangsai.
+    "),
     url = "https://jauntyjjs.github.io/PyDataGlobal2021Talk",
     image = "https://raw.githubusercontent.com/JauntyJJS/PyDataGlobal2021Talk/main/share-card.png",
-    image_alt = paste(
-      "Title slide of",
-      "Tips and advice when creating a python software for lab members to use in academia",
-      "presented at PyData Global 2021"
-    ),
+    image_alt = glue::glue("
+      Title slide of Tips and advice when creating a python \\
+      software for lab members to use in academia presented \\
+      at PyData Global 2021.
+      "),
     og_type = "website",
     og_author = "Jeremy Selva",
     twitter_card_type = "summary_large_image",
