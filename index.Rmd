@@ -260,7 +260,7 @@ knitr::include_graphics("images/sharing.jpg")
 .center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
 
 ---
-## Advice 1:<br>Convert scripts to a web service or executable software
+## 1: Convert scripts to a web service or executable software
 
 Users make less error when clicking buttons compared to typing in command lines
 
@@ -343,7 +343,7 @@ Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
 .center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
 
 ---
-## Advice 2:<br>Give a software overview using cheatsheet
+## 2: Give a software overview using cheatsheet
 
 ```{r, out.width = "60%"}
 knitr::include_graphics("images/my_cheatsheet.PNG")
@@ -371,7 +371,7 @@ knitr::include_graphics("images/RStudio_cheatsheet.jpg")
 .center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
 ---
 
-## Advice 3:<br>Give helpful messages when users make a mistake.
+## 3: Give helpful messages when users make a mistake.
 
 Users and programmers make mistakes sometimes. Software error messages are unavoidable.
 
@@ -392,7 +392,7 @@ knitr::include_graphics("images/hammer-computer.jpg")
 .center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
 ---
 
-## Advice 3:<br>Give helpful messages when users make a mistake.
+## 3: Give helpful messages when users make a mistake.
 
 However, if you can make them helpful, it does goes a long way.
 
@@ -438,7 +438,7 @@ knitr::include_graphics("images/michael-lynch-blog.jpg")
 .center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
 ---
 
-## Advice 4:<br>Output preprocessing reports to show accountability.
+## 4: Output preprocessing reports to show accountability.
 
 Academia journals are getting more demanding with regards to software, wanting reusability besides reproducibility.
 
@@ -543,7 +543,7 @@ knitr::include_graphics("images/documentation-confused-2.jpg")
 
 .center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
 ---
-## Advice 5:<br>Organise your documentation into specific structures
+## 5: Organise your documentation into specific structures
 
 Thankfully, I came across DIVIO [website](https://documentation.divio.com/) that encourages me to split my documentations into manageable categories.
 
@@ -553,7 +553,7 @@ knitr::include_graphics("images/documentation-table.jpg")
 
 .center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
 ---
-## Advice 5:<br>Organise your documentation into specific structures
+## 5: Organise your documentation into specific structures
 
 Following in its footsteps, this is what I come up with
 
