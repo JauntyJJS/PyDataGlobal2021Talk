@@ -64,6 +64,8 @@ screenshot_share_image <- function(
   path_image
 }
 
+#screenshot_share_image("index.Rmd")
+
 ```
 
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
@@ -75,7 +77,7 @@ style_mono_accent(
   inverse_link_color = "#bbedf3",
   link_color = "#0072bb",
   footnote_color = NULL,
-  footnote_font_size = "0.5em",
+  footnote_font_size = "0.6em",
   footnote_position_bottom = "10px",
 )
 ```
@@ -134,9 +136,16 @@ knitr::include_graphics("images/books.jpg")
 
 ]
 
-.left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
+.left[
+.footnote[
+Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)
 
-.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
+[Xaringan](https://github.com/yihui/xaringan) Slide Template by [Sharla Gelfand](https://github.com/sharlagelfand/sharstudioconf) [`r fa(name = "github")`](https://github.com/sharlagelfand) [`r fa(name = "link")`](https://sharla.party/) [`r fa(name = "twitter")`](https://twitter.com/sharlagelfand) [`r fa(name = "youtube-square")`](https://www.youtube.com/watch?v=JThd3YYQXGg)
+]
+]
+
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk [`r fa(name = "file-pdf")`](https://jauntyjjs.github.io/PyDataGlobal2021Talk/PyDataGlobal2021Talk.pdf)]
+]
 
 ---
 ## Introduction
@@ -147,7 +156,8 @@ It started with a python script used to organise Mass Spectrometry data for my p
 knitr::include_graphics("images/single-python-script.jpg")
 ```
 
-.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk [`r fa(name = "file-pdf")`](https://jauntyjjs.github.io/PyDataGlobal2021Talk/PyDataGlobal2021Talk.pdf)]
+]
 ---
 
 ## Introduction
@@ -173,7 +183,8 @@ knitr::include_graphics("images/overwhelmed.jpg")
 
 .left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
 
-.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk [`r fa(name = "file-pdf")`](https://jauntyjjs.github.io/PyDataGlobal2021Talk/PyDataGlobal2021Talk.pdf)]
+]
 
 ---
 
@@ -201,7 +212,8 @@ https://github.com/SLINGhub/MSOrganiser
 
 .left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
 
-.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk [`r fa(name = "file-pdf")`](https://jauntyjjs.github.io/PyDataGlobal2021Talk/PyDataGlobal2021Talk.pdf)]
+]
 
 ---
 
@@ -216,7 +228,8 @@ knitr::include_graphics("images/not-easy.jpg")
 
 .left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
 
-.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk [`r fa(name = "file-pdf")`](https://jauntyjjs.github.io/PyDataGlobal2021Talk/PyDataGlobal2021Talk.pdf)]
+]
 ---
 
 ## Introduction
@@ -242,7 +255,8 @@ knitr::include_graphics("images/programming-hard.jpg")
 
 .left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
 
-.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk [`r fa(name = "file-pdf")`](https://jauntyjjs.github.io/PyDataGlobal2021Talk/PyDataGlobal2021Talk.pdf)]
+]
 
 ---
 
@@ -257,7 +271,8 @@ knitr::include_graphics("images/sharing.jpg")
 
 .left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
 
-.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk [`r fa(name = "file-pdf")`](https://jauntyjjs.github.io/PyDataGlobal2021Talk/PyDataGlobal2021Talk.pdf)]
+]
 
 ---
 ## 1: Convert scripts to a web service or executable software
@@ -268,7 +283,8 @@ Users make less error when clicking buttons compared to typing in command lines
 knitr::include_graphics("images/click-vs-command.jpg")
 ```
 
-.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk [`r fa(name = "file-pdf")`](https://jauntyjjs.github.io/PyDataGlobal2021Talk/PyDataGlobal2021Talk.pdf)]
+]
 
 ---
 
@@ -283,7 +299,8 @@ knitr::include_graphics("images/click-vs-command.jpg")
 knitr::include_graphics("images/procedure.jpg")
 ```
 
-.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk [`r fa(name = "file-pdf")`](https://jauntyjjs.github.io/PyDataGlobal2021Talk/PyDataGlobal2021Talk.pdf)]
+]
 
 ---
 ## Advice 1 Tips 
@@ -296,7 +313,8 @@ Jack McKew's [blog](https://jackmckew.dev/making-executable-guis-with-python-goo
 knitr::include_graphics("images/Jack_McKew_Blog.jpg")
 ```
 
-.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk [`r fa(name = "file-pdf")`](https://jauntyjjs.github.io/PyDataGlobal2021Talk/PyDataGlobal2021Talk.pdf)]
+]
 
 ---
 
@@ -313,7 +331,8 @@ Cartoon Hydra by [how-to-draw-cartoons-online.com](https://how-to-draw-cartoons-
 ]
 ]
 
-.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk [`r fa(name = "file-pdf")`](https://jauntyjjs.github.io/PyDataGlobal2021Talk/PyDataGlobal2021Talk.pdf)]
+]
 
 ---
 
@@ -340,7 +359,8 @@ Cartoon Hydra by [how-to-draw-cartoons-online.com](https://how-to-draw-cartoons-
 
 Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
 
-.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk [`r fa(name = "file-pdf")`](https://jauntyjjs.github.io/PyDataGlobal2021Talk/PyDataGlobal2021Talk.pdf)]
+]
 
 ---
 ## 2: Give a software overview using cheatsheet
@@ -349,7 +369,8 @@ Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
 knitr::include_graphics("images/my_cheatsheet.PNG")
 ```
 
-.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk [`r fa(name = "file-pdf")`](https://jauntyjjs.github.io/PyDataGlobal2021Talk/PyDataGlobal2021Talk.pdf)]
+]
 ---
 ## Advice 2 Tips 
 
@@ -368,7 +389,8 @@ knitr::include_graphics("images/RStudio_cheatsheet.jpg")
 ```
 ]
 
-.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk [`r fa(name = "file-pdf")`](https://jauntyjjs.github.io/PyDataGlobal2021Talk/PyDataGlobal2021Talk.pdf)]
+]
 ---
 
 ## 3: Give helpful messages when users make a mistake.
@@ -389,7 +411,8 @@ knitr::include_graphics("images/hammer-computer.jpg")
 
 .left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
 
-.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk [`r fa(name = "file-pdf")`](https://jauntyjjs.github.io/PyDataGlobal2021Talk/PyDataGlobal2021Talk.pdf)]
+]
 ---
 
 ## 3: Give helpful messages when users make a mistake.
@@ -415,7 +438,8 @@ knitr::include_graphics("images/thumbs-up.jpg")
 
 .left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
 
-.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk [`r fa(name = "file-pdf")`](https://jauntyjjs.github.io/PyDataGlobal2021Talk/PyDataGlobal2021Talk.pdf)]
+]
 ---
 
 ## Advice 3 Tips 
@@ -435,7 +459,8 @@ knitr::include_graphics("images/michael-lynch-blog.jpg")
 ```
 ]
 
-.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk [`r fa(name = "file-pdf")`](https://jauntyjjs.github.io/PyDataGlobal2021Talk/PyDataGlobal2021Talk.pdf)]
+]
 ---
 
 ## 4: Output preprocessing reports to show accountability.
@@ -456,7 +481,8 @@ knitr::include_graphics("images/nature-reusable-2.jpg")
 
 https://www.nature.com/articles/s43588-021-00109-9
 
-.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk [`r fa(name = "file-pdf")`](https://jauntyjjs.github.io/PyDataGlobal2021Talk/PyDataGlobal2021Talk.pdf)]
+]
 ---
 
 ## Advice 4 Tips 
@@ -467,7 +493,8 @@ Tag a label on different software version and encourage users to cite not just t
 knitr::include_graphics("images/github-tag-release.jpg")
 ```
 
-.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk [`r fa(name = "file-pdf")`](https://jauntyjjs.github.io/PyDataGlobal2021Talk/PyDataGlobal2021Talk.pdf)]
+]
 ---
 
 ## Advice 4 Tips 
@@ -495,18 +522,20 @@ knitr::include_graphics("images/report-Matt-Clarke.jpg")
 ```
 ]
 
-.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk [`r fa(name = "file-pdf")`](https://jauntyjjs.github.io/PyDataGlobal2021Talk/PyDataGlobal2021Talk.pdf)]
+]
 ---
 
 ## Advice 4 Tips 
 
 Show pre-processing results to explain how the software calculate the final results. They are also helpful when there is a need to troubleshoot for logical errors
 
-```{r, out.width = "90%"}
+```{r, out.width = "80%"}
 knitr::include_graphics("images/normArea.jpg")
 ```
 
-.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk [`r fa(name = "file-pdf")`](https://jauntyjjs.github.io/PyDataGlobal2021Talk/PyDataGlobal2021Talk.pdf)]
+]
 ---
 
 ## My documentation issue
@@ -517,7 +546,8 @@ I started my documentation by trying to follow some advice provided by Lee's [ar
 knitr::include_graphics("images/documentation-beginning.jpg")
 ```
 
-.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk [`r fa(name = "file-pdf")`](https://jauntyjjs.github.io/PyDataGlobal2021Talk/PyDataGlobal2021Talk.pdf)]
+]
 ---
 
 ## My documentation issue
@@ -541,7 +571,8 @@ knitr::include_graphics("images/documentation-confused-2.jpg")
 
 .left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
 
-.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk [`r fa(name = "file-pdf")`](https://jauntyjjs.github.io/PyDataGlobal2021Talk/PyDataGlobal2021Talk.pdf)]
+]
 ---
 ## 5: Organise your documentation into specific structures
 
@@ -551,7 +582,8 @@ Thankfully, I came across DIVIO [website](https://documentation.divio.com/) that
 knitr::include_graphics("images/documentation-table.jpg")
 ```
 
-.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk [`r fa(name = "file-pdf")`](https://jauntyjjs.github.io/PyDataGlobal2021Talk/PyDataGlobal2021Talk.pdf)]
+]
 ---
 ## 5: Organise your documentation into specific structures
 
@@ -563,7 +595,8 @@ knitr::include_graphics("images/documentation-cleanup.jpg")
 
 .left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
 
-.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk [`r fa(name = "file-pdf")`](https://jauntyjjs.github.io/PyDataGlobal2021Talk/PyDataGlobal2021Talk.pdf)]
+]
 ---
 ## Advice 5 Tips 
 
@@ -586,7 +619,8 @@ knitr::include_graphics("images/documentation-cheatsheet.jpg")
 
 ]
 
-.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk [`r fa(name = "file-pdf")`](https://jauntyjjs.github.io/PyDataGlobal2021Talk/PyDataGlobal2021Talk.pdf)]
+]
 ---
 ## Advice 5 Tips 
 
@@ -609,7 +643,8 @@ knitr::include_graphics("images/documentation-developer-documentation.jpg")
 
 ]
 
-.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk [`r fa(name = "file-pdf")`](https://jauntyjjs.github.io/PyDataGlobal2021Talk/PyDataGlobal2021Talk.pdf)]
+]
 ---
 
 ## Take Home Advice:<br>Create a software that gives a lasting impact.
@@ -630,7 +665,8 @@ knitr::include_graphics("images/help-people.jpg")
 
 .left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
 
-.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk [`r fa(name = "file-pdf")`](https://jauntyjjs.github.io/PyDataGlobal2021Talk/PyDataGlobal2021Talk.pdf)]
+]
 ---
 
 ## Take Home Advice:<br>Create a software that gives a lasting impact.
@@ -656,7 +692,8 @@ knitr::include_graphics("images/Yihui_Xie_Blog.jpg")
 
 .left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
 
-.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk [`r fa(name = "file-pdf")`](https://jauntyjjs.github.io/PyDataGlobal2021Talk/PyDataGlobal2021Talk.pdf)]
+]
 ---
 
 ## All the best...
@@ -681,6 +718,13 @@ knitr::include_graphics("images/that-is-all.jpg")
 ]
 
 
-.left[.footnote[Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)]]
+.left[.footnote[
+Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)
 
-.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk]]
+[Xaringan](https://github.com/yihui/xaringan) Slide Template by [Sharla Gelfand](https://github.com/sharlagelfand/sharstudioconf) [`r fa(name = "github")`](https://github.com/sharlagelfand) [`r fa(name = "link")`](https://sharla.party/) [`r fa(name = "twitter")`](https://twitter.com/sharlagelfand) [`r fa(name = "youtube-square")`](https://www.youtube.com/watch?v=JThd3YYQXGg)
+
+]
+]
+
+.center[.footnote[https://jauntyjjs.github.io/PyDataGlobal2021Talk [`r fa(name = "file-pdf")`](https://jauntyjjs.github.io/PyDataGlobal2021Talk/PyDataGlobal2021Talk.pdf)]
+]
