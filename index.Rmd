@@ -140,7 +140,7 @@ knitr::include_graphics("images/books.jpg")
 .footnote[
 Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)
 
-[Xaringan](https://github.com/yihui/xaringan) Slide Template by [Sharla Gelfand](https://github.com/sharlagelfand/sharstudioconf) [`r fa(name = "github")`](https://github.com/sharlagelfand) [`r fa(name = "link")`](https://sharla.party/) [`r fa(name = "twitter")`](https://twitter.com/sharlagelfand) [`r fa(name = "youtube-square")`](https://www.youtube.com/watch?v=JThd3YYQXGg)
+[Xaringan](https://github.com/yihui/xaringan) Slide Template by [Sharla Gelfand](https://github.com/sharlagelfand/sharstudioconf) [`r fa(name = "github")`](https://github.com/sharlagelfand) [`r fa(name = "link")`](https://sharla.online) [`r fa(name = "twitter")`](https://twitter.com/sharlagelfand) [`r fa(name = "youtube-square")`](https://www.youtube.com/watch?v=JThd3YYQXGg)
 ]
 ]
 
@@ -721,7 +721,7 @@ knitr::include_graphics("images/that-is-all.jpg")
 .left[.footnote[
 Images by [Amonrat Rungreangfangsai](https://www.vecteezy.com/members/amy1313)
 
-[Xaringan](https://github.com/yihui/xaringan) Slide Template by [Sharla Gelfand](https://github.com/sharlagelfand/sharstudioconf) [`r fa(name = "github")`](https://github.com/sharlagelfand) [`r fa(name = "link")`](https://sharla.party/) [`r fa(name = "twitter")`](https://twitter.com/sharlagelfand) [`r fa(name = "youtube-square")`](https://www.youtube.com/watch?v=JThd3YYQXGg)
+[Xaringan](https://github.com/yihui/xaringan) Slide Template by [Sharla Gelfand](https://github.com/sharlagelfand/sharstudioconf) [`r fa(name = "github")`](https://github.com/sharlagelfand) [`r fa(name = "link")`](https://sharla.online) [`r fa(name = "twitter")`](https://twitter.com/sharlagelfand) [`r fa(name = "youtube-square")`](https://www.youtube.com/watch?v=JThd3YYQXGg)
 
 ]
 ]
