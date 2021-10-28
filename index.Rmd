@@ -162,7 +162,7 @@ knitr::include_graphics("images/single-python-script.jpg")
 
 ## Introduction
 
-Many asks me to troubleshoot R/Python/Bash scripts, created by past collaborators, that are meant to do similar tasks as mine.
+Many asked me to troubleshoot R/Python/Bash scripts, created by past collaborators, that were meant to do similar tasks as mine.
 - *"This script does not work on my computer anymore. I don't know why."* 😵
 
 .pull-left[
@@ -219,7 +219,7 @@ https://github.com/SLINGhub/MSOrganiser
 
 ## Introduction
 
-Looking back, I realised that things have not been easy...
+Looking back, I realise that things have not been easy...
 
 
 ```{r, out.width = "50%"}
