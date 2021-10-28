@@ -393,7 +393,7 @@ knitr::include_graphics("images/RStudio_cheatsheet.jpg")
 ]
 ---
 
-## 3: Give helpful messages when users make a mistake.
+## 3: Provide helpful messages when users make a mistake.
 
 Users and programmers make mistakes sometimes. Software error messages are unavoidable.
 
@@ -463,7 +463,7 @@ knitr::include_graphics("images/michael-lynch-blog.jpg")
 ]
 ---
 
-## 4: Output preprocessing reports to show accountability.
+## 4: Include necessary software reports to show reliability.
 
 Academia journals are getting more demanding with regards to software, wanting reusability besides reproducibility.
 
@@ -528,7 +528,9 @@ knitr::include_graphics("images/report-Matt-Clarke.jpg")
 
 ## Advice 4 Tips 
 
-Show pre-processing results to explain how the software calculate the final results. They are also helpful when there is a need to troubleshoot for logical errors
+Show pre-processing results to explain how the software calculate the final results. 
+
+They are helpful when there is a need to troubleshoot for logical errors
 
 ```{r, out.width = "80%"}
 knitr::include_graphics("images/normArea.jpg")
@@ -704,7 +706,7 @@ Review of advice
 - Convert scripts to a web service or executable software.
 - Give a software overview using cheat sheets.
 - Provide helpful messages when users make a mistake.
-- Output preprocessing reports to show accountability.
+- Include necessary software reports to show reliability.
 - Organise your documentation into specific structures.
 
 Take home advice
