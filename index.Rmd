@@ -393,7 +393,7 @@ knitr::include_graphics("images/RStudio_cheatsheet.jpg")
 ]
 ---
 
-## 3: Provide helpful messages when users make a mistake.
+## 3: Provide helpful messages when users make a mistake
 
 Users and programmers make mistakes sometimes. Software error messages are unavoidable.
 
@@ -415,7 +415,7 @@ knitr::include_graphics("images/hammer-computer.jpg")
 ]
 ---
 
-## 3: Give helpful messages when users make a mistake.
+## 3: Provide helpful messages when users make a mistake
 
 However, if you can make them helpful, it does goes a long way.
 
@@ -463,7 +463,7 @@ knitr::include_graphics("images/michael-lynch-blog.jpg")
 ]
 ---
 
-## 4: Include necessary software reports to show reliability.
+## 4: Include necessary software reports to show reliability
 
 Academia journals are getting more demanding with regards to software, wanting reusability besides reproducibility.
 
@@ -489,7 +489,7 @@ https://www.nature.com/articles/s43588-021-00109-9
 
 Tag a label on different software version and encourage users to cite not just the software name but the version number as well.
 
-```{r, out.width = "70%"}
+```{r, out.width = "60%"}
 knitr::include_graphics("images/github-tag-release.jpg")
 ```
 
