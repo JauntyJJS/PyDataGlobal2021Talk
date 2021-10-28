@@ -162,7 +162,7 @@ knitr::include_graphics("images/single-python-script.jpg")
 
 ## Introduction
 
-Many asks me to troubleshoot similar scripts created by collaborators.
+Many asks me to troubleshoot R/Python/Bash scripts, created by past collaborators, that are meant to do similar task as mine.
 - *"This script does not work on my computer anymore. I don't know why."* 😵
 
 .pull-left[
